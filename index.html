@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajay Chauhan | UI/UX Designer Portfolio</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Portfolio of Ajay Chauhan, a UI/UX Designer crafting intuitive, visual digital experiences. Explore case studies for Air India booking, PhonePe Gold SIP, and RCC Water Tank cleaning app.">
+    <meta name="keywords" content="UIUX, Designer, Portfolio, Case Study, Air India, PhonePe, RCC Water Tank, Ajay Chauhan">
+    <meta name="author" content="Ajay Chauhan">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ajay Chauhan | UI/UX Designer Portfolio">
+    <meta property="og:description" content="UI/UX Designer portfolio showcasing digital experiences that simplify user lives.">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="index.css">
+    
+    <!-- Icon library (Lucide icons via CDN for clean outlines) -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="dark-theme">
+    
+    <!-- Background Blur Decorative Gradients -->
+    <div class="glow-bg glow-1"></div>
+    <div class="glow-bg glow-2"></div>
+
+    <!-- Floating blurred Navigation Bar -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo" id="nav-logo-link">
+                AC<span class="dot">.</span>
+            </a>
+            <div class="nav-menu">
+                <a href="#work" class="nav-link" id="nav-link-work">Work</a>
+                <a href="#about" class="nav-link" id="nav-link-about">About</a>
+                <a href="#resume" class="nav-link" id="nav-link-resume">Resume</a>
+                <a href="#contact" class="nav-link" id="nav-link-contact">Contact</a>
+            </div>
+            <div class="nav-actions">
+                <button id="theme-toggle" aria-label="Toggle between dark and light theme">
+                    <i data-lucide="sun" class="sun-icon"></i>
+                    <i data-lucide="moon" class="moon-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content Container -->
+    <main class="container">
+        
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-badge" id="hero-badge-container">
+                <span class="status-pulse"></span>
+                <span class="badge-text">Open to opportunities</span>
+            </div>
+            
+            <div class="hero-layout">
+                <div class="hero-text-content">
+                    <h1 class="hero-title" id="main-hero-title">
+                        नमस्ते, I'm <span class="highlight-serif">Ajay Chauhan</span>
+                    </h1>
+                    <p class="hero-subtitle" id="hero-subtext">
+                        A UI/UX Designer who can't calculate a circle's area, but can design an interface that makes you love circles. I translate complex user problems into clean, high-impact digital experiences.
+                    </p>
+                    <div class="hero-cta-group">
+                        <a href="#work" class="btn btn-primary" id="btn-explore-work">Explore Work</a>
+                        <a href="#contact" class="btn btn-secondary" id="btn-hero-contact">Let's Connect</a>
+                    </div>
+                    
+                    <div class="screen-time-container">
+                        <i data-lucide="clock" class="icon-small"></i>
+                        <span class="screen-time-text">Replies? Guaranteed within 15 minutes.</span>
+                    </div>
+                </div>
+                
+                <!-- Profile Image with handwritten annotations -->
+                <div class="hero-image-content">
+                    <div class="profile-frame">
+                        <img src="assets/profile.jpg" alt="Ajay Chauhan Profile Image" class="profile-img" id="profile-picture">
+                    </div>
+                    
+                    <!-- Handwritten Pointer annotation -->
+                    <div class="handwritten-annotation hero-annotation">
+                        <svg class="arrow-svg" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M10 40 C 35 25, 60 10, 85 15" stroke="currentColor" stroke-width="2" stroke-dasharray="4" fill="none"/>
+                            <path d="M85 15 L 75 12 M 85 15 L 80 25" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                        <span class="annotation-text">Yes, that's me!</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="section-padding">
+            <div class="section-header">
+                <span class="section-tag font-handwritten">Selected Projects</span>
+                <h2 class="section-title">This is how my design experience looks like</h2>
+                <p class="section-desc">Centralized platform case studies showcasing my approach to wireframing, metrics-driven UI redesigns, and accessibility.</p>
+            </div>
+            
+            <div class="projects-grid" id="projects-container">
+                
+                <!-- Project 1: Air India Redesign -->
+                <div class="project-card" id="project-air-india">
+                    <div class="project-img-wrapper">
+                        <img src="assets/covers/Air_India_Redesign.jpg" alt="Air India Redesign Cover Image" class="project-cover" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn btn-light open-case-study" data-project="air-india" id="btn-view-air-india">
+                                View Case Study <i data-lucide="arrow-up-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        
+                        <h3 class="project-card-title">Air India Booking Redesign</h3>
+                        <p class="project-card-desc">
+                            Simplifying passenger flight search, seat selection, and checkout workflows. Focused on visual hierarchy, accessibility, and modernizing a legacy airline booking experience.
+                        </p>
+                        
+                        
+                    </div>
+                </div>
+
+                <!-- Project 2: PhonePe SIP Gold -->
+                <div class="project-card" id="project-phonepe">
+                    <div class="project-img-wrapper">
+                        <img src="assets/covers/PhonePe_SIP_Gold.jpg" alt="PhonePe SIP Gold Cover Image" class="project-cover" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn btn-light open-case-study" data-project="phonepe" id="btn-view-phonepe">
+                                View Case Study <i data-lucide="arrow-up-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        
+                        <h3 class="project-card-title">PhonePe SIP Gold Experience</h3>
+                        <p class="project-card-desc">
+                            Designed a high-trust automated SIP gold investment workflow. Built for faster scannability and intuitive goal setup to encourage recurring micro-savings.
+                        </p>
+                        
+                    </div>
+                </div>
+
+                <!-- Project 3: RCC Water Tank -->
+                <div class="project-card" id="project-rcc-tank">
+                    <div class="project-img-wrapper">
+                        <img src="assets/covers/RCC_Water_Tank.jpg" alt="RCC Water Tank Cleaning App Cover Image" class="project-cover" loading="lazy">
+                        <div class="project-overlay">
+                            <button class="btn btn-light open-case-study" data-project="rcc-tank" id="btn-view-rcc-tank">
+                                View Case Study <i data-lucide="arrow-up-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                       
+                        <h3 class="project-card-title">RCC Water Tank Service Dashboard</h3>
+                        <p class="project-card-desc">
+                             central platform to track water cleaning jobs, worker deployment, inventory management, and retailer client feedback to streamline logistics.
+                        </p>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <div class="about-layout">
+                <div class="about-title-side">
+                    <span class="section-tag font-handwritten">Dear Diary...</span>
+                    <h2 class="about-heading">My Journey as a Designer</h2>
+                    
+                    <div class="handwritten-annotation about-annotation">
+                        <svg class="arrow-svg" viewBox="0 0 100 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M90 10 C 65 20, 40 35, 15 30" stroke="currentColor" stroke-width="2" stroke-dasharray="4" fill="none"/>
+                            <path d="M15 30 L 25 32 M 15 30 L 20 20" stroke="currentColor" stroke-width="2" fill="none"/>
+                        </svg>
+                        <span class="annotation-text">A trial & error process</span>
+                    </div>
+                </div>
+                
+                <div class="about-content-side">
+                    <p class="about-para">
+                        Like many designers, my love for creation started early. I realized sketching wasn't my strongest suit, but structural creation and problem-solving were. I wanted my creative output to live, breathe, and help people.
+                    </p>
+                    <p class="about-para">
+                        When faced with choices in high school, everyone pointed towards traditional directions. Instead, I spent weeks researching pathways where logic meets visuals. That's how I stumbled into the universe of **UI/UX Design**.
+                    </p>
+                    <p class="about-para">
+                        It wasn't a choice made because it sounded cool. It was a calculated journey of test courses, studying Google Material Design systems, analyzing micro-interactions on popular apps, and understanding how a change in button position can alter business conversion metrics.
+                    </p>
+                    
+                    <div class="about-metrics">
+                        <div class="about-stat">
+                            <span class="stat-num">3+</span>
+                            <span class="stat-label">End-to-End Projects</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-num">100%</span>
+                            <span class="stat-label">User Centered Philosophy</span>
+                        </div>
+                        <div class="about-stat">
+                            <span class="stat-num">∞</span>
+                            <span class="stat-label">Coffee & Pixel Polish</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resume Section -->
+        <section id="resume" class="section-padding">
+            <div class="section-header">
+                <span class="section-tag font-handwritten">Professional Background</span>
+                <h2 class="section-title">Interested in my credentials?</h2>
+                <p class="section-desc">Take a look at my UI/UX Design resume detailing my skills, coursework, and toolkit.</p>
+            </div>
+            
+            <div class="resume-container">
+                <div class="resume-wrapper">
+                    <!-- Blur filter overlay that reveals on hover / click -->
+                    <div class="resume-preview-box">
+                        <img src="assets/resume.jpg" alt="Ajay Chauhan Resume Preview" class="resume-img" id="resume-preview-img">
+                        <div class="resume-overlay">
+                            <button class="btn btn-primary" id="btn-fullscreen-resume">
+                                <i data-lucide="maximize-2"></i> View Resume Fullscreen
+                            </button>
+                        </div>
+                    </div>
+                    
+                    <div class="resume-details">
+                        <h3 class="resume-section-title">Design Toolkit & Methodology</h3>
+                        <ul class="toolkit-list">
+                            <li><i data-lucide="check-circle" class="icon-accent"></i> <strong>UI Design:</strong> Figma, Wireframing, Auto Layout, Component libraries</li>
+                            <li><i data-lucide="check-circle" class="icon-accent"></i> <strong>UX Research:</strong> User Personas, User Flows, Empathy mapping, A/B Testing</li>
+                            <li><i data-lucide="check-circle" class="icon-accent"></i> <strong>Prototyping:</strong> High-fidelity micro-interactions, Figma transitions</li>
+                            <li><i data-lucide="check-circle" class="icon-accent"></i> <strong>Design Systems:</strong> Material 3 design system, iOS Human Interface</li>
+                        </ul>
+                        <div class="resume-actions-row">
+                            <a href="assets/resume.jpg" download="Ajay_Chauhan_UIUX_Resume.jpg" class="btn btn-secondary" id="btn-download-resume">
+                                <i data-lucide="download"></i> Download Resume Image
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="contact-card">
+                <div class="contact-left">
+                    <span class="section-tag font-handwritten">Wanna build together?</span>
+                    <h2 class="contact-title">Let's craft something amazing</h2>
+                    <p class="contact-desc">
+                        Whether you want to redesign an existing platform, brainstorm a new product concept, or just chat about design typography—my inbox is always open.
+                    </p>
+                    
+                    <div class="social-links">
+                        <a href="mailto:ajaychau9699@gmail.com" aria-label="Send email" class="social-circle" id="social-mail"><i data-lucide="mail"></i></a>
+                        <a href="https://www.linkedin.com/in/ajay-chauhan-9721b5299/" target="_blank" aria-label="LinkedIn Profile" class="social-circle" id="social-linkedin"><img src="assets/linkedin.svg" alt="LinkedIn" class="social-icon"></a>
+                        <a href="https://www.behance.net/ajaychauhan132" target="_blank" aria-label="Behance Profile" class="social-circle" id="social-behance"><span class="custom-social-text">Be</span></a>
+                        
+                    </div>
+                    
+                    <div class="handwritten-annotation contact-annotation">
+                        <span class="annotation-text">No boring meetings!</span>
+                    </div>
+                </div>
+                
+                <div class="contact-right">
+                    <form id="contact-form" onsubmit="event.preventDefault(); return false;">
+                        <div class="form-group">
+                            <label for="form-name">Name</label>
+                            <input type="text" id="form-name" placeholder="John Doe" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-email">Email</label>
+                            <input type="email" id="form-email" placeholder="john@company.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="form-message">Message</label>
+                            <textarea id="form-message" rows="4" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-block" id="btn-submit-form">
+                            Send Message <i data-lucide="send"></i>
+                        </button>
+                        <div id="form-feedback" class="form-feedback-hidden"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <p class="footer-logo">AC<span class="dot">.</span></p>
+            <p class="footer-copy">&copy; 2026 Ajay Chauhan. Crafted with vanilla HTML & CSS. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Fullscreen Case Study Overlay Modal (Viewer component) -->
+    <div id="case-study-modal" class="modal-hidden" aria-hidden="true" role="dialog">
+        
+        <!-- Modal Top bar / Control Bar -->
+        <div class="modal-controls">
+            <div class="modal-project-title">
+                <span id="modal-project-name">Case Study View</span>
+            </div>
+            
+            <div class="modal-btn-group">
+                <button class="modal-control-btn" id="btn-zoom-in" title="Zoom In">
+                    <i data-lucide="zoom-in"></i>
+                </button>
+                <button class="modal-control-btn" id="btn-zoom-out" title="Zoom Out">
+                    <i data-lucide="zoom-out"></i>
+                </button>
+                <button class="modal-control-btn" id="btn-zoom-fit" title="Fit to Width">
+                    <i data-lucide="minimize"></i>
+                </button>
+                <a href="#" download id="btn-download-casestudy" class="modal-control-btn" title="Download Image">
+                    <i data-lucide="download"></i>
+                </a>
+                <button class="modal-control-btn btn-close" id="btn-close-modal" aria-label="Close case study">
+                    <i data-lucide="x"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Modal Scroll Progress Bar -->
+        <div class="progress-container">
+            <div class="progress-bar" id="modal-scroll-progress"></div>
+        </div>
+        
+        <!-- Case Study Scrollable Content Area -->
+        <div class="modal-content" id="modal-scrollable-content">
+            <div class="modal-image-wrapper" id="modal-img-container">
+                <img src="" alt="Full Case Study Infographic" id="modal-case-study-img">
+            </div>
+        </div>
+        
+        <!-- Loading Spinner overlay -->
+        <div id="modal-loading-spinner" class="spinner-hidden">
+            <div class="spinner"></div>
+            <p class="spinner-text">Loading Case Study... (This file is high resolution)</p>
+        </div>
+
+        <!-- Scroll to Top inside Modal -->
+        <button id="modal-scroll-top" title="Scroll to Top">
+            <i data-lucide="chevron-up"></i>
+        </button>
+    </div>
+
+    <!-- Custom Javascript -->
+    <script src="index.js"></script>
+</body>
+</html>
